@@ -73,7 +73,7 @@ The hospital data analysis involved exploring a dataset with 15,757 rows and 56 
    - Noticed a rise in deaths from 2017 to 2018 and a subsequent decrease in 2019.
 
 5. **Disease Distribution Across Age Groups:**
-   - CAD affected people aged 61-80, HTN and heart failure affected those aged 81 and above, and ACS affected individuals aged 41-60.
+   - CAD mostly affected people aged 61-80, HTN and heart failure mostly affected those aged 81 and above, and ACS mostly affected individuals aged 41-60.
 
 6. **Admissions Across Urban and Rural Areas:**
    - Most admissions were from people in urban areas over the years.
