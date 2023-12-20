@@ -42,9 +42,9 @@ The hospital data analysis involved exploring a dataset with 15,757 rows and 56 
    - **Creatinine Column:**
      - Filled missing values based on CKD column grouping.
 
-   - **Urea and Creatinine Columns:**
-     - Filled missing values based on the median of urea values where creatinine was the mode.
-
+   - **Urea Column:**
+     - High correlation between urea and creatinine. 
+     - Filled missing values based on creatinine grouping. 
    - **Chest Infection Column:**
      - Converted invalid inputs to NaN and used forward fill.
 
@@ -60,13 +60,17 @@ The hospital data analysis involved exploring a dataset with 15,757 rows and 56 
    - CAD, HTM, ACS, DM, and heart failure were the most common diseases with 4000 and above cases.
 
 2. **Monthly Admissions Trend (2017-2019):**
-   - Observed fluctuations in monthly admissions, with a sudden rise in 2017 and a decrease in 2019.
+   - Observed fluctuations in monthly admissions in 2019.
+   - A sudden rise in number of admissions from March to April 2017.
+   - January had the highest number of admissions in 2019.
+   - admissions from April to December 2019 were roughly constant. 
+   - highest number of admissions of the years from July to November 2018 
 
 3. **Leading Causes of Deaths:**
    - Heart failure, AKI, ACS, and SHOCK had the highest number of deaths, with men leading across diseases.
 
 4. **Trend in Deaths Over the Years:**
-   - Noticed a rise in deaths from 2017 to 2018 and a subsequent decrease.
+   - Noticed a rise in deaths from 2017 to 2018 and a subsequent decrease in 2019.
 
 5. **Disease Distribution Across Age Groups:**
    - CAD affected people aged 61-80, HTN and heart failure affected those aged 81 and above, and ACS affected individuals aged 41-60.
