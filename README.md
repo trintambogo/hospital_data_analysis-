@@ -64,7 +64,7 @@ The hospital data analysis involved exploring a dataset with 15,757 rows and 56 
    - A sudden rise in number of admissions from March to April 2017.
    - January had the highest number of admissions in 2019.
    - admissions from April to December 2019 were roughly constant. 
-   - highest number of admissions of the years from July to November 2018 
+   - highest number of admissions over the years from July to November 2018 
 
 3. **Leading Causes of Deaths:**
    - Heart failure, AKI, ACS, and SHOCK had the highest number of deaths, with men leading across diseases.
